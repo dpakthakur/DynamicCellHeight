@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		652202781E0578BC00624C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652202771E0578BC00624C6D /* AppDelegate.swift */; };
-		6522027A1E0578BC00624C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652202791E0578BC00624C6D /* ViewController.swift */; };
-		6522027D1E0578BD00624C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6522027B1E0578BD00624C6D /* Main.storyboard */; };
-		6522027F1E0578BD00624C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6522027E1E0578BD00624C6D /* Assets.xcassets */; };
-		652202821E0578BD00624C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652202801E0578BD00624C6D /* LaunchScreen.storyboard */; };
+		6587797F1E052D25006D991C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6587797E1E052D25006D991C /* AppDelegate.swift */; };
+		658779811E052D25006D991C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658779801E052D25006D991C /* ViewController.swift */; };
+		658779841E052D26006D991C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658779821E052D26006D991C /* Main.storyboard */; };
+		658779861E052D26006D991C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658779851E052D26006D991C /* Assets.xcassets */; };
+		658779891E052D26006D991C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658779871E052D26006D991C /* LaunchScreen.storyboard */; };
+		658779911E052E13006D991C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658779901E052E13006D991C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		652202741E0578BC00624C6D /* DynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		652202771E0578BC00624C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		652202791E0578BC00624C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6522027C1E0578BD00624C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6522027E1E0578BD00624C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		652202811E0578BD00624C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		652202831E0578BD00624C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6587797B1E052D25006D991C /* DynamicCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6587797E1E052D25006D991C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		658779801E052D25006D991C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		658779831E052D26006D991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		658779851E052D26006D991C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		658779881E052D26006D991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6587798A1E052D26006D991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		658779901E052E13006D991C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		652202711E0578BC00624C6D /* Frameworks */ = {
+		658779781E052D25006D991C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6522026B1E0578BC00624C6D = {
+		658779721E052D25006D991C = {
 			isa = PBXGroup;
 			children = (
-				652202761E0578BC00624C6D /* DynamicCellHeight */,
-				652202751E0578BC00624C6D /* Products */,
+				6587797D1E052D25006D991C /* DynamicCellHeight */,
+				6587797C1E052D25006D991C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		652202751E0578BC00624C6D /* Products */ = {
+		6587797C1E052D25006D991C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				652202741E0578BC00624C6D /* DynamicCellHeight.app */,
+				6587797B1E052D25006D991C /* DynamicCellHeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		652202761E0578BC00624C6D /* DynamicCellHeight */ = {
+		6587797D1E052D25006D991C /* DynamicCellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				652202771E0578BC00624C6D /* AppDelegate.swift */,
-				652202791E0578BC00624C6D /* ViewController.swift */,
-				6522027B1E0578BD00624C6D /* Main.storyboard */,
-				6522027E1E0578BD00624C6D /* Assets.xcassets */,
-				652202801E0578BD00624C6D /* LaunchScreen.storyboard */,
-				652202831E0578BD00624C6D /* Info.plist */,
+				6587797E1E052D25006D991C /* AppDelegate.swift */,
+				658779801E052D25006D991C /* ViewController.swift */,
+				658779821E052D26006D991C /* Main.storyboard */,
+				658779901E052E13006D991C /* TableViewCell.swift */,
+				658779851E052D26006D991C /* Assets.xcassets */,
+				658779871E052D26006D991C /* LaunchScreen.storyboard */,
+				6587798A1E052D26006D991C /* Info.plist */,
 			);
 			path = DynamicCellHeight;
 			sourceTree = "<group>";
@@ -67,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		652202731E0578BC00624C6D /* DynamicCellHeight */ = {
+		6587797A1E052D25006D991C /* DynamicCellHeight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 652202861E0578BD00624C6D /* Build configuration list for PBXNativeTarget "DynamicCellHeight" */;
+			buildConfigurationList = 6587798D1E052D26006D991C /* Build configuration list for PBXNativeTarget "DynamicCellHeight" */;
 			buildPhases = (
-				652202701E0578BC00624C6D /* Sources */,
-				652202711E0578BC00624C6D /* Frameworks */,
-				652202721E0578BC00624C6D /* Resources */,
+				658779771E052D25006D991C /* Sources */,
+				658779781E052D25006D991C /* Frameworks */,
+				658779791E052D25006D991C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +84,26 @@
 			);
 			name = DynamicCellHeight;
 			productName = DynamicCellHeight;
-			productReference = 652202741E0578BC00624C6D /* DynamicCellHeight.app */;
+			productReference = 6587797B1E052D25006D991C /* DynamicCellHeight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6522026C1E0578BC00624C6D /* Project object */ = {
+		658779731E052D25006D991C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Zensar Technologies";
 				TargetAttributes = {
-					652202731E0578BC00624C6D = {
+					6587797A1E052D25006D991C = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6522026F1E0578BC00624C6D /* Build configuration list for PBXProject "DynamicCellHeight" */;
+			buildConfigurationList = 658779761E052D25006D991C /* Build configuration list for PBXProject "DynamicCellHeight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 6522026B1E0578BC00624C6D;
-			productRefGroup = 652202751E0578BC00624C6D /* Products */;
+			mainGroup = 658779721E052D25006D991C;
+			productRefGroup = 6587797C1E052D25006D991C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				652202731E0578BC00624C6D /* DynamicCellHeight */,
+				6587797A1E052D25006D991C /* DynamicCellHeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		652202721E0578BC00624C6D /* Resources */ = {
+		658779791E052D25006D991C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				652202821E0578BD00624C6D /* LaunchScreen.storyboard in Resources */,
-				6522027F1E0578BD00624C6D /* Assets.xcassets in Resources */,
-				6522027D1E0578BD00624C6D /* Main.storyboard in Resources */,
+				658779891E052D26006D991C /* LaunchScreen.storyboard in Resources */,
+				658779861E052D26006D991C /* Assets.xcassets in Resources */,
+				658779841E052D26006D991C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		652202701E0578BC00624C6D /* Sources */ = {
+		658779771E052D25006D991C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6522027A1E0578BC00624C6D /* ViewController.swift in Sources */,
-				652202781E0578BC00624C6D /* AppDelegate.swift in Sources */,
+				658779911E052E13006D991C /* TableViewCell.swift in Sources */,
+				658779811E052D25006D991C /* ViewController.swift in Sources */,
+				6587797F1E052D25006D991C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6522027B1E0578BD00624C6D /* Main.storyboard */ = {
+		658779821E052D26006D991C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6522027C1E0578BD00624C6D /* Base */,
+				658779831E052D26006D991C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		652202801E0578BD00624C6D /* LaunchScreen.storyboard */ = {
+		658779871E052D26006D991C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				652202811E0578BD00624C6D /* Base */,
+				658779881E052D26006D991C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		652202841E0578BD00624C6D /* Debug */ = {
+		6587798B1E052D26006D991C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		652202851E0578BD00624C6D /* Release */ = {
+		6587798C1E052D26006D991C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +260,7 @@
 			};
 			name = Release;
 		};
-		652202871E0578BD00624C6D /* Debug */ = {
+		6587798E1E052D26006D991C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -264,11 +268,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.DynamicCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
-		652202881E0578BD00624C6D /* Release */ = {
+		6587798F1E052D26006D991C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -276,31 +280,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zensar.DynamicCellHeight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6522026F1E0578BC00624C6D /* Build configuration list for PBXProject "DynamicCellHeight" */ = {
+		658779761E052D25006D991C /* Build configuration list for PBXProject "DynamicCellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				652202841E0578BD00624C6D /* Debug */,
-				652202851E0578BD00624C6D /* Release */,
+				6587798B1E052D26006D991C /* Debug */,
+				6587798C1E052D26006D991C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		652202861E0578BD00624C6D /* Build configuration list for PBXNativeTarget "DynamicCellHeight" */ = {
+		6587798D1E052D26006D991C /* Build configuration list for PBXNativeTarget "DynamicCellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				652202871E0578BD00624C6D /* Debug */,
-				652202881E0578BD00624C6D /* Release */,
+				6587798E1E052D26006D991C /* Debug */,
+				6587798F1E052D26006D991C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6522026C1E0578BC00624C6D /* Project object */;
+	rootObject = 658779731E052D25006D991C /* Project object */;
 }
